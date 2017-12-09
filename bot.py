@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 # Edited from script Cybertk script made by TKR
-from Cybertk import LineClient
-from Cybertk.LineApi import LineTracer
-from Cybertk.LineThrift.ttypes import Message
-from Cybertk.LineThrift.TalkService import Client
+from CYBERTK import LineClient
+from CYBERTK.LineApi import LineTracer
+from CYBERTK.LineThrift.ttypes import Message
+from CYBERTK.LineThrift.TalkService import Client
 import time, datetime, random ,sys, re, string, os, json
 
 reload(sys)
